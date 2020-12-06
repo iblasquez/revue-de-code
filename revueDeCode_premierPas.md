@@ -43,21 +43,19 @@ Quelle est le % de couverture de code ? _______
 :black_square_button: A posteriori (une fois le code de production écrit)   
 
 
-**Le programme est-il fonctionnel ?**
+**Le programme est-il fonctionnel ?**    
 :black_square_button: Oui  
 :black_square_button: Non 
   
-*Si oui :*  
-Que peut-on faire avec ?  ______________________________
+*Si oui*, que peut-on faire avec ?  ______________________________
 
 
 
-**Le code a-t-il été versionné (git) ?**
+**Le code a-t-il été versionné (git) ?**  
 :black_square_button: Oui  
 :black_square_button: Non 
 
-*Si oui :*   
-Combien de commits ont été réalisés ? _______
+*Si oui*, combien de commits ont été réalisés ? _______
 
 
 
@@ -71,44 +69,44 @@ Combien de commits ont été réalisés ? _______
 ***Explorez maintenant un petit plus précisément le code à revoir en répondant aux questions suivantes***
 
 
-## 2. Zoom sur les règles de simplicité (Rules of simple Design (M2104)) <a id="reglesSimplicite"></a>
+##2. Zoom sur les règles de simplicité (Rules of simple Design (M2104)) <a id="reglesSimplicite"></a>
 
 
-### 2.1. Tous les tests passent   
+###2.1. Tous les tests passent   
 
-**Si des tests ont été écrits, est-ce qu’ils passent TOUS AU VERT ?**
+**Si des tests ont été écrits, est-ce qu’ils passent TOUS AU VERT ?**  
 :black_square_button: Oui  
 :black_square_button: Non   
 
-###2.2. Révéler l’intention du code  
+###2.2. Révéler l'intention du code  
 
  
 **Retrouve-t-on la terminologie métier en lisant le code ?**  
 :black_square_button: Oui    
 :black_square_button: Non  
    
-Si non, expliquez :_______
+*Si non*, expliquez :_______
 
 
 **Les classes sont-elles bien nommées ?**  
 :black_square_button: Oui    
 :black_square_button: Non  
    
-Si non, expliquez :_______
+*Si non*, expliquez :_______
 
 
 **Les méthodes sont-elles bien nommées ?**  
 :black_square_button: Oui    
 :black_square_button: Non  
    
-Si non, expliquez :_______
+*Si non*, expliquez :_______
 
 
 **Les variables sont-elles bien nommées ?**  
 :black_square_button: Oui    
 :black_square_button: Non  
    
-Si non, expliquez :_______
+*Si non*, expliquez :_______
 
 
 **Le code est-il consistant ?**   
@@ -116,27 +114,27 @@ Par exemple : si le camelCase est utilisé pour nommer les méthodes, le camelCa
 :black_square_button: Oui    
 :black_square_button: Non  
    
-Si non, expliquez :_______
+*Si non*, expliquez :_______
 
 
 **Le code est-il correctement indenté/formaté ?**  
 :black_square_button: Oui    
 :black_square_button: Non  
    
-Si non, expliquez :_______
+*Si non*, expliquez :_______
 
 
-###2.3. Pas de duplication: DRY (Don’t Repeat Yourself)
+###2.3. Pas de duplication: DRY (Don't Repeat Yourself)
    
 **Y-a-t-il de la duplication dans le code ?**  
 :black_square_button: Oui    
 :black_square_button: Non  
    
 
-Si oui, expliquez où se situe la duplication, ce qu’elle concerne dans le code :_______
+*Si oui*, expliquez où se situe la duplication, ce qu’elle concerne dans le code :_______
 
 
-###2.4. Le plus petit nombre d’éléments (réduction de la complexité)
+###2.4. Le plus petit nombre d'éléments (réduction de la complexité)
 
 **Combien de classes ?** _______
 
@@ -144,10 +142,10 @@ Si oui, expliquez où se situe la duplication, ce qu’elle concerne dans le cod
 **Que pensez-vous de la taille des classes ? (nombre de méthodes par classe)** _______
 
 
-**Que pensez-vous de la taille des méthodes (nombre de lignes de code) ?** _______ 
+**Que pensez-vous de la taille des méthodes (nombre de lignes de code) ?** _______   
 
 
-** Y-a-t-il des méthodes de plus de 20 lignes ?**
+**Y-a-t-il des méthodes de plus de 20 lignes ?**  
 :black_square_button: Oui    
 :black_square_button: Non  
 
@@ -158,18 +156,18 @@ Si oui, expliquez où se situe la duplication, ce qu’elle concerne dans le cod
 :black_square_button: Oui    
 :black_square_button: Non  
  
-Si oui, indiquez lesquelles : _______ 
+*Si oui*, indiquez lesquelles : _______ 
 
 
 
-##3. Zoom sur la simplicité YAGNI / KISS : Eviter l’over engineering 😉 (M2104) <a id="KISS"></a>
+##3. Zoom sur la simplicité YAGNI / KISS : Eviter l'over engineering 😉 (M2104) <a id="KISS"></a>
 
 **Y-a-t-il des choses dans le code qui ont été implémentées mais qui ne sont pas utilisées ?**  
 (comme un attribut `taille` pour le robot, des getteurs et setteurs que l'on n’utilise pas dans le code déjà écrit, etc)    
 :black_square_button: Oui    
 :black_square_button: Non  
 
-Si oui, indiquez ce que vous pensez avoir détecté comme over engineering dans l’état actuel 
+*Si oui*, indiquez ce que vous pensez avoir détecté comme over engineering dans l’état actuel 
 du code :  _______ 
 
 
@@ -182,7 +180,7 @@ du code :  _______
 :black_square_button: Oui    
 :black_square_button: Non 
  
-Si non, expliquez :  _______ 
+*Si non*, expliquez :  _______ 
 
 **Les cas limites fonctionnels ont-ils été traités ?**   
 *Et oui, la planète mars est ronde !!! Attention aux exceptions et bordure.   
@@ -191,7 +189,7 @@ Si on est en (0,0) vers l’ouest et on avance de 1, on doit se trouver sur une 
 :black_square_button: Oui    
 :black_square_button: Non  
    
-Si non, expliquez : _______ 
+*Si non*, expliquez : _______ 
 
 
 
@@ -199,7 +197,7 @@ Si non, expliquez : _______
 :black_square_button: Oui    
 :black_square_button: Non   
     
-Si oui, indiquez lesquels :  _______ 
+*Si oui*, indiquez lesquels :  _______ 
 
 
 ##5. Zoom sur un logiciel opérationnel (minimum) (M3301 : MVP) <a id="mvp"></a>
@@ -230,21 +228,21 @@ Si oui, indiquez lesquels :  _______
 
 ###6.2. Principe OCP (Open Closed Principle : Principe Ouvert/Fermé)
    
-**Le principe OCP vous parait-il toujours respecté ?**
+**Le principe OCP vous parait-il toujours respecté ?**  
 :black_square_button: Oui    
 :black_square_button: Non   
 
-**Si non,** indiquez le(s) endroit(s) dans le code où vous pensez que ce principe n'est pas respecté : _______ 
+**Si non,** indiquez le(s) endroit(s) dans le code où vous pensez que ce principe n'est pas respecté : _______   
 
 
 
 ###6.3. Principe LSP (Liskov Substitution Principle : Principe de substitution de Liskov)
    
-**Le principe LSP vous parait-il toujours respecté ?**
+**Le principe LSP vous parait-il toujours respecté ?**  
 :black_square_button: Oui    
 :black_square_button: Non   
 
-**Si non,** indiquez le(s) endroit(s) dans le code où vous pensez que ce principe n'est pas respecté : _______ 
+**Si non,** indiquez le(s) endroit(s) dans le code où vous pensez que ce principe n'est pas respecté : _______   
 
 
 ###6.4. Principe ISP (Interface Segregation Principle : Principe de ségrégation des interfaces)
@@ -253,28 +251,32 @@ Si oui, indiquez lesquels :  _______
 :black_square_button: Oui    
 :black_square_button: Non   
 
-**Si non,** indiquez le(s) endroit(s) dans le code où vous pensez que ce principe n'est pas respecté : _______ 
+**Si non,** indiquez le(s) endroit(s) dans le code où vous pensez que ce principe n'est pas respecté : _______  
+ 
  
 ###6.5. Principe DIP (Dependency Inversion Principle : Principe d’inversion de dépendances)
    
-**Le principe DIP vous parait-il toujours respecté ?**
+**Le principe DIP vous parait-il toujours respecté ?**  
 :black_square_button: Oui    
 :black_square_button: Non    
 
 **Si non,** indiquez le(s) endroit(s) dans le code où vous pensez que ce principe n'est pas respecté : _______ 
 
 
-##7. Zoom sur d’éventuels design patterns (M3105) <a id="pattern"></a>
+##7. Zoom sur d’éventuels design patterns (M3105) <a id="pattern"></a>  
+
 Si vous pensez qu'à certains endroits du code, certains patterns auraient pu être utilisés, n’hésitez pas à le faire remarquer et indiquez au travers de suggestions/conseils le(s) endroit(s) dans le code où vous pensez que ce(s) éventuel(s) pattern(s) pourrai(en)t être implémenté(s)
 
 
 
-##8. Bilan <a id="bilan"></a>
+##8. Bilan <a id="bilan"></a>  
+
 Rédigez ci-après un bilan de votre revue de code suite à votre lecture du code et aux remarques que vous a inspiré ce code (remarques venues en remplissant la fiche précédente et/ou en tenant compte de vos propres impressions/réactions face à ce code).
 La revue de code devra faire remonter les bad smells que vous avez identifiés dans le code au travers de remarques bienveillantes accompagnées de conseils/suggestions d'amélioration pour que le(s) auteur(s) de ce code puisse(nt) l'améliorer
 
 
-##En fin de séance : 
+##En fin de séance    
+ 
 Rubrique à compléter par le(s) auteur(s) du code, pas ceux qui font la revue  
   
 **Avez-vous utilisé le TDD pour développer ce bout de code ?**  
@@ -287,7 +289,7 @@ Rubrique à compléter par le(s) auteur(s) du code, pas ceux qui font la revue
 :black_square_button: Non    
 
 
-**Justifiez en quoi cette revue de code vous a permis d'améliorer ou pas votre code : ** _______ 
+**Justifiez en quoi cette revue de code vous a permis d'améliorer ou pas votre code :** _______ 
 
 
 
